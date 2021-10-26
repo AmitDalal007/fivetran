@@ -5,7 +5,7 @@ const Login = () => {
     return (
         <>
             <div className="container-fluid _logcont">
-                <div class=" _block">
+                <div class="_block">
                     <div class="modal-dialog">
                         <div class="modal-content _logmodl">
                             <div class="modal-body p-5 _unictc">
@@ -34,7 +34,7 @@ const Login = () => {
 
                                     <button type="button" style={{ width: "100%" }} class="btn _unib"><h5>Sign In</h5></button>
 
-                                    <p className="_unip pt-4">Don’t have a Fivetran account yet?  <Link to="/login" className="_unilb">Sign Up</Link></p>
+                                    <p className="_unip pt-4">Don’t have a Fivetran account yet?  <Link to="/signup" className="_unilb">Sign Up</Link></p>
 
                                     <a href="/" className="_unilb">Forgot your password?</a>
                                 </div>

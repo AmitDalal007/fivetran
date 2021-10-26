@@ -28,7 +28,9 @@ import './css/contactus.css';
 import './css/legal.css';
 import './css/subnav.css';
 import './css/signup.css';
+import './css/emailverify.css';
 import './css/login.css';
+import './css/welcome.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -75,6 +77,9 @@ import ScrollToTop from './components/ScrollToTop';
 import Security from './components/Security';
 import SignUp from './components/SignUp';
 import Login from './components/Login';
+import EmailVerify from './components/EmailVerify';
+import Welcome from './components/Welcome';
+import SetConnector from './components/SetConnector';
 
 function App() {
   return (
@@ -191,8 +196,17 @@ function App() {
           <Route exact path="/signup">
             <SignUp />
           </Route>
+          <Route exact path="/emailverify">
+            <EmailVerify />
+          </Route>
           <Route exact path="/login">
             <Login />
+          </Route>
+          <Route exact path="/welcome">
+            <Welcome />
+          </Route>
+          <Route exact path="/setconnector">
+            <SetConnector />
           </Route>
         </Switch>
         <Footer />

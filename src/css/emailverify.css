@@ -1,0 +1,23 @@
+._evconth{
+    width: 100% !important;
+  height: 1000px !important;
+}
+
+._evabmod{
+    position: absolute !important;
+    margin-top: 200px !important;
+}
+
+._evmodwid{
+    width: 800px !important;
+    margin-left: -155px !important;
+    border-radius: 20px !important;
+    box-shadow: 10px 0px 7px rgb(240, 239, 239);
+}
+
+._vmemail{
+    background-color: #ecffe0;
+    color: #266800;
+    margin: auto !important;
+    padding: 10px;
+}
