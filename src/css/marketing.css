@@ -1,0 +1,38 @@
+/* 2nd Portion Start */
+._markpri {
+  height: 40px !important;
+}
+
+._markpri2 {
+  height: 70px !important;
+}
+/* 2nd Portion End */
+
+/* 3rd Portion Start */
+._markpr3txt {
+  color: white !important;
+}
+/* 3rd Portion End */
+
+/* 7th Portion Start */
+._markpr7btn {
+  background-color: white !important;
+  color: #4a4a4a !important;
+}
+
+._markpr7btn:hover {
+  background-color: white !important;
+  color: #4a4a4a !important;
+}
+
+._markpr7v {
+  width: 470px;
+  height: 250px;
+}
+/* 7th Portion End */
+
+/* 8th Portion Start */
+._markpr8img {
+  width: 120px;
+}
+/* 8th Portion End */

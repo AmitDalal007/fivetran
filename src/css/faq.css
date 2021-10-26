@@ -1,0 +1,10 @@
+._faqa {
+  display: block;
+  font-weight: 450 !important;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+._faqa:hover {
+  text-decoration: underline;
+}

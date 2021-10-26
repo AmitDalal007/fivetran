@@ -1,0 +1,85 @@
+/* 2nd Portion Start */
+._culwtxt {
+  color: white !important;
+}
+/* 2nd Portion End */
+
+/* 3rd Portion Start */
+._culpr3img {
+  width: 100%;
+}
+/* 3rd Portion End */
+
+/* 7th Portion Start */
+._culpr7c {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+._culpr7crd {
+  flex: 33%;
+  height: 270px;
+}
+
+._culpr7c1,
+._culpr7c2 {
+  border-right: 0.5px solid #ddd;
+  border-bottom: 0.5px solid #ddd;
+}
+
+._culpr7c3 {
+  border-bottom: 0.5px solid #ddd;
+}
+
+._culpr7c4,
+._culpr7c5 {
+  border-right: 0.5px solid #ddd;
+}
+/* 7th Portion End */
+
+/* 8th Portion Start */
+._culpr8ch1 {
+  height: 200px;
+}
+
+._culpr8ch2 {
+  height: 300px;
+}
+/* 8th Portion End */
+
+/* 11th Portion Start */
+._culpr11c {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 250px;
+}
+
+._culpr11img {
+  height: 250px;
+  width: 330px;
+  position: absolute;
+  right: 0;
+}
+
+._culpr11c2 {
+  width: 500px;
+  margin: auto;
+  margin-left: 150px;
+}
+
+._culpr11btn {
+  background-color: white;
+  color: #4a4a4a;
+}
+
+._culpr11btn:hover {
+  background-color: white;
+  color: #4a4a4a;
+}
+/* 11th Portion End */
+
+/* ._culpr12c{
+    position:static;
+} */

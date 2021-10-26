@@ -1,0 +1,59 @@
+._legalph {
+  font-weight: 800;
+}
+
+._legalh3 {
+  font-weight: 600;
+}
+
+._legalh4 {
+  font-weight: 530;
+}
+
+/* For Link */
+._lgllink {
+  display: none;
+}
+
+._legalh3:hover ._lgllink,
+._legalh4:hover ._lgllink {
+  display: inline-block;
+}
+
+._lglultxt {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+._lglbtxt {
+  font-weight: 550 !important;
+}
+
+/* For Table */
+._lgltable {
+  width: 100%;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+._lgltabh {
+  background-color: #ddd;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+._lgltabb {
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+._lglcbrdr {
+  border: none !important;
+  outline: none !important;
+}

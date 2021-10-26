@@ -1,0 +1,32 @@
+/* 3rd Portion Start */
+._apr3crdb {
+  background-color: var(--bs-body-bg);
+  height: 220px;
+}
+
+._apr3v {
+  width: 100%;
+  height: 500px;
+}
+/* 3rd Portion End */
+
+/* 5th Portion Start */
+._apr5_1 {
+  background-color: #002b57;
+  color: white;
+}
+
+._apr5_1:hover {
+  color: white;
+}
+
+._apr5_2 {
+  width: 20%;
+}
+/* 5th Portion End */
+
+/* 6th Portion Start */
+._apr6i {
+  width: 50px;
+}
+/* 6th Portion End */

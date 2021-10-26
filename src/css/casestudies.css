@@ -1,0 +1,24 @@
+/* 2nd Portion Start */
+._cspr2v {
+  width: 75%;
+  height: 500px;
+}
+
+._cspr2btn {
+  width: 30px;
+}
+
+._cspr2btn:hover {
+  background-color: rgb(189, 186, 186);
+}
+/* 2nd Portion End */
+
+/* 6th Portion Start */
+._cspr6btn {
+  width: 30px;
+}
+
+._cspr6btn:hover {
+  background-color: cornflowerblue;
+}
+/* 6th Portion End */

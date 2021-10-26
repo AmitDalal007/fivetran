@@ -1,0 +1,82 @@
+/* 2nd Portion Start */
+._epr2c {
+  display: flex;
+  justify-content: space-around !important;
+}
+
+._epr2i {
+  width: 150px;
+  height: 30px;
+}
+/* 2nd Portion End */
+
+/* 3rd Portion Start */
+._epr3i {
+  width: 100%;
+}
+/* 3rd Portion End */
+
+/* 5th Portion Start */
+._epr5c {
+  width: 550px;
+}
+/* 5th Portion End */
+
+/* 6th Portion Start */
+._epr6v {
+  width: 450px;
+  height: 250px;
+}
+/* 6th Portion End */
+
+/* 7th Portion Start */
+._epr7c {
+  width: 510px;
+}
+._epr7pa {
+  color: #007bff !important;
+}
+/* 7th Portion End */
+
+/* 8th Portion Start */
+._epr8i {
+  width: 100%;
+}
+/* 8th Portion End */
+
+/* 9th Portion Start */
+._epr9txt {
+  color: white !important;
+}
+/* 9th Portion End */
+
+/* 10th Portion Start */
+._epr10img {
+  padding: 15px;
+}
+
+._epr10c {
+  justify-content: space-between;
+}
+/* 10th Portion End */
+
+/* 11th Portion Start */
+._epr11crdh {
+  height: 540px !important;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+._epr11crdh:hover {
+  box-shadow: 10px 10px 30px 10px #c5c4c4 !important;
+}
+
+._epr11crdb {
+  height: 280px;
+}
+
+._epr11f {
+  height: 40px !important;
+  justify-content: center;
+  padding-left: 15px;
+}
+/* 11th Portion Start */

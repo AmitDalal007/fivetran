@@ -1,0 +1,17 @@
+._dsccrd1 {
+  height: 728px;
+}
+
+._dsccrd1txt {
+  color: white !important;
+}
+
+._dsccrd1b {
+  height: 385px;
+}
+
+._cscrdbody:hover ._dsccrd1b {
+  height: 655px;
+  top: 0;
+  margin-top: -268px;
+}

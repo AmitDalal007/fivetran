@@ -1,0 +1,54 @@
+._cscont {
+  display: flex;
+  align-items: center;
+}
+
+._csi {
+  width: 100px;
+  border-radius: 50%;
+  background-color: grey;
+}
+
+/* Card Animation */
+._cscstyle {
+  height: 150px;
+  transition: all 0.5s ease-in-out;
+}
+
+._txthid {
+  display: block;
+}
+
+._txtvis {
+  display: none;
+}
+
+._cscrdbody {
+  text-decoration: none;
+}
+
+._cscrdbody:hover ._cscstyle {
+  height: 281px;
+  background-color: #0064cd !important;
+  position: relative;
+  top: 0;
+  margin-top: -131px;
+}
+
+._cscrdbody:hover ._txtvis {
+  display: block;
+  color: white;
+}
+
+._cscrdbody:hover ._txthid {
+  display: none;
+}
+
+._cscrdbody:hover ._cscrdf {
+  background-color: #0064cd;
+  color: white !important;
+}
+
+._cscrdbody:hover ._cscrdftxt {
+  color: white !important;
+}

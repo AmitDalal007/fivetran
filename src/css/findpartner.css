@@ -1,0 +1,30 @@
+/* 1st Portion Start */
+._fppr1txt {
+  color: white !important;
+}
+/* 1st Portion End */
+
+/* 3rd Portion Start */
+._fppr3crd {
+  height: 130px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+._fppr3crd:hover {
+  box-shadow: 10px 10px 30px 10px #c5c4c4 !important;
+}
+/* 3rd Portion End */
+
+/* 4th Portion Start */
+._fppr4card {
+  height: 480px;
+  width: 490px;
+}
+/* 4th Portion End */
+
+/* 5th Portion Start */
+._fppr5btn {
+  background-color: white;
+  color: #4a4a4a;
+}
+/* 5th Portion End */

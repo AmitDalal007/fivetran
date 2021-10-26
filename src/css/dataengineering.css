@@ -1,0 +1,46 @@
+/* Header Start */
+._dengheader {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+._dengheaderi {
+  width: 100%;
+  height: 250px;
+  position: absolute;
+}
+
+._dengheaderc {
+  position: relative;
+}
+
+._denghdtxt {
+  color: white !important;
+}
+/* Header End */
+
+._dengc1a {
+  text-decoration: none;
+}
+
+._dengcrd1h {
+  height: 355px;
+  background-color: #0064cd;
+  color: white;
+}
+
+._dengc1htxt {
+  display: none;
+}
+._dengcrd1h:hover ._dengc1htxt {
+  display: block;
+}
+
+._dengcrd4h {
+  height: 355px;
+  background-color: #0099cc;
+  color: white;
+}

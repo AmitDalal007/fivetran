@@ -1,0 +1,14 @@
+/* 4th Portion Start */
+._evntpr4c {
+  width: 420px !important;
+  height: 230px !important;
+  transition: box-shadow 0.4s ease-in-out;
+}
+._evntpr4c:hover {
+  box-shadow: 10px 10px 30px 10px #c5c4c4 !important;
+}
+
+._evntpr4ci {
+  width: 260px;
+}
+/* 4th Portion End */

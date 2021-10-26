@@ -1,0 +1,26 @@
+<svg id="graphics" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #f9ab00;
+      }
+
+      .cls-3 {
+        fill: #e37400;
+      }
+    </style>
+  </defs>
+  <title>connectors</title>
+  <g>
+    <rect class="cls-1" x="35" y="31" width="30" height="30"/>
+    <g>
+      <path class="cls-2" d="M55.31,35.53V56.16a3.33,3.33,0,0,0,3.28,3.59,3.28,3.28,0,0,0,3.28-3.59V35.69a3.28,3.28,0,0,0-3.28-3.44A3.34,3.34,0,0,0,55.31,35.53Z"/>
+      <path class="cls-3" d="M46.72,46V56.16A3.33,3.33,0,0,0,50,59.75a3.28,3.28,0,0,0,3.28-3.59v-10A3.28,3.28,0,0,0,50,42.72,3.33,3.33,0,0,0,46.72,46Z"/>
+      <circle class="cls-3" cx="41.41" cy="56.47" r="3.28"/>
+    </g>
+  </g>
+</svg>

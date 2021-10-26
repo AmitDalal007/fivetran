@@ -1,0 +1,29 @@
+/* 4th Portion Start */
+._finpr4c {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+._finpr4 {
+  flex: 50%;
+}
+
+._finpr4c1 {
+  border-right: 0.5px solid #ddd;
+  border-bottom: 0.5px solid #ddd;
+}
+
+._finpr4c2 {
+  border-bottom: 0.5px solid #ddd;
+}
+
+._finpr4c3 {
+  border-right: 0.5px solid #ddd;
+}
+/* 4th Portion End */
+
+/* 5th Portion Start */
+._finpr5i {
+  width: 110px;
+}
+/* 5th Portion End */
