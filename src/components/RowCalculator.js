@@ -27,1346 +27,1352 @@ const RowCalculator = () => {
                 </div>
 
                 <div className="container">
-                    <table className="table table-bordered">
-                        <thead className="_3Hx0N">
-                            <tr className="_1nahx">
-                                <th className="j_hIc _unitxt"></th>
-                                <th className="j_hIc _unitxt Ueqh6"></th>
-                                <th className="j_hIc _unitxt Ueqh6 _2q0-G _2NwmM _2dl6K">Most popular</th>
-                                <th className="j_hIc _unitxt Ueqh6"></th>
-                                <th className="j_hIc _unitxt Ueqh6"></th>
-                            </tr>
-                        </thead>
-                        <thead className="_3Hx0N">
-                            <tr className="_1nahx _1wMzd">
-                                <th className="j_hIc _unitxt"></th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="YoGva uALyE">Starter</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="YoGva uALyE">Standard</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="YoGva uALyE">Enterprise</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="YoGva uALyE">Business Critical</div>
-                                </th>
-                            </tr>
-                            <tr className="_1nahx _1wMzd">
-                                <th className="j_hIc _unitxt"></th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="_1eVyG uALyE gEUTB">$1</div>
-                                    <div className="_3Cipy uALyE BpP4x">per credit</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="_1eVyG uALyE gEUTB">$1.50</div>
-                                    <div className="_3Cipy uALyE BpP4x">per credit</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="_1eVyG uALyE gEUTB">$2</div>
-                                    <div className="_3Cipy uALyE BpP4x">per credit</div>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6">
-                                    <div className="_1eVyG uALyE gEUTB">Contact us for pricing.</div>
-                                    <div className="_3Cipy BpP4x">&nbsp;</div>
-                                </th>
-                            </tr>
-                            <tr className="_1nahx _1wMzd">
-                                <th className="j_hIc _unitxt"></th>
-                                <th className="j_hIc _unitxt Ueqh6 uALyE">
-                                    <a
-                                        href="/signup"
-                                        target="_self"
-                                        className="btn _rctbtn"
-                                    >
-                                        Start free trial
-                                    </a>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 uALyE">
-                                    <a
-                                        href="/signup"
-                                        target="_self"
-                                        className="btn _rctbtn"
-                                    >
-                                        Start free trial
-                                    </a>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 uALyE">
-                                    <a
-                                        href="/signup"
-                                        target="_self"
-                                        className="btn _rctbtn"
-                                    >
-                                        Start free trial
-                                    </a>
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 uALyE">
-                                    <a
-                                        href="https://get.fivetran.com/demo"
-                                        target="_self"
-                                        className="btn _rctbtn"
-                                    >
-                                        Contact us
-                                    </a>
-                                </th>
-                            </tr>
-                        </thead>
-                    </table>
+                    <div class="row g-5">
+                        <div class="col-md-12">
+                            <div class="position-sticky" style={{ top: "81px" }}>
+                                <table className="table table-bordered bg-light">
+                                    <thead className="_3Hx0N">
+                                        <tr className="_1nahx">
+                                            <th className="j_hIc _unitxt"></th>
+                                            <th className="j_hIc _unitxt Ueqh6"></th>
+                                            <th className="j_hIc _unitxt Ueqh6 _2q0-G _2NwmM _2dl6K">Most popular</th>
+                                            <th className="j_hIc _unitxt Ueqh6"></th>
+                                            <th className="j_hIc _unitxt Ueqh6"></th>
+                                        </tr>
+                                    </thead>
+                                    <thead className="_3Hx0N">
+                                        <tr className="_1nahx _1wMzd">
+                                            <th className="j_hIc _unitxt"></th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="YoGva uALyE">Starter</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="YoGva uALyE">Standard</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="YoGva uALyE">Enterprise</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="YoGva uALyE">Business Critical</div>
+                                            </th>
+                                        </tr>
+                                        <tr className="_1nahx _1wMzd">
+                                            <th className="j_hIc _unitxt"></th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="_1eVyG uALyE gEUTB">$1</div>
+                                                <div className="_3Cipy uALyE BpP4x">per credit</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="_1eVyG uALyE gEUTB">$1.50</div>
+                                                <div className="_3Cipy uALyE BpP4x">per credit</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="_1eVyG uALyE gEUTB">$2</div>
+                                                <div className="_3Cipy uALyE BpP4x">per credit</div>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6">
+                                                <div className="_1eVyG uALyE gEUTB">Contact us for pricing.</div>
+                                                <div className="_3Cipy BpP4x">&nbsp;</div>
+                                            </th>
+                                        </tr>
+                                        <tr className="_1nahx _1wMzd">
+                                            <th className="j_hIc _unitxt"></th>
+                                            <th className="j_hIc _unitxt Ueqh6 uALyE">
+                                                <a
+                                                    href="/signup"
+                                                    target="_self"
+                                                    className="btn _rctbtn"
+                                                >
+                                                    Start free trial
+                                                </a>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6 uALyE">
+                                                <a
+                                                    href="/signup"
+                                                    target="_self"
+                                                    className="btn _rctbtn"
+                                                >
+                                                    Start free trial
+                                                </a>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6 uALyE">
+                                                <a
+                                                    href="/signup"
+                                                    target="_self"
+                                                    className="btn _rctbtn"
+                                                >
+                                                    Start free trial
+                                                </a>
+                                            </th>
+                                            <th className="j_hIc _unitxt Ueqh6 uALyE">
+                                                <a
+                                                    href="https://get.fivetran.com/demo"
+                                                    target="_self"
+                                                    className="btn _rctbtn"
+                                                >
+                                                    Contact us
+                                                </a>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
 
-                    <table className="table table-bordered">
-                        <thead className="_3Hx0N">
-                            <tr className="_1nahx">
-                                <th className="j_hIc _unitxt"></th>
-                                <th className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    For foundational data integration needs
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    For advanced analytics needs and production workloads
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    For enhanced data security, speed, access, and support
-                                </th>
-                                <th className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    For maximum security over data infrastructure, pipelines, and
-                                    access
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody className="_3Hx0N">
-                            <tr className="_1nahx">
-                                <td colspan="5" className="j_hIc _unitxt _1qJrR">
-                                    Connectors and databases
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Sync frequency</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">1-hour max</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">15-min max</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">5-min max</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">5-min max</td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">180+ fully-managed connectors</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Analytic-ready schemas</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">14-days of free use with new connectors</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Fivetran transformations and packages</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Fully-managed database connectors</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx">
-                                <td colspan="5" className="j_hIc _unitxt _1qJrR">
-                                    Security
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">SOC 2 Type II and ISO 27001 certifications</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">
-                                    Select data processing location (US, EU, etc.)
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">SSH tunnels for encryption</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Reverse SSH tunnels (annual contract only)</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">User permissioning for custom controls</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">
-                                    VPN tunnels for advanced security (annual contract only)
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Select cloud provider (GCP or AWS)</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Operate Fivetran in chosen AWS region</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">
-                                    AWS PrivateLink for advanced security requirements
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">PCI DSS Level 1 Certification</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Customer-managed keys for encryption</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx">
-                                <td colspan="5" className="j_hIc _unitxt _1qJrR">
-                                    Support
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">24/7 global support</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">SLA for system uptime</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">SLA for data delivery</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">SLA for 1-hour support response</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx">
-                                <td colspan="5" className="j_hIc _unitxt _1qJrR">
-                                    Extensibility
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Access to Fivetran’s REST API</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Streaming logging to external tools</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                            <tr className="_1nahx U625B">
-                                <td className="j_hIc _unitxt">Support for multiple subsidiaries</td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                                <td className="j_hIc _unitxt Ueqh6 _31jc9">
-                                    <svg
-                                        aria-hidden="true"
-                                        focusable="false"
-                                        data-prefix="fal"
-                                        data-icon="check"
-                                        className="svg-inline--fa fa-check fa-w-14 fa-lg "
-                                        role="img"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                        name="checked"
-                                    >
-                                        <path
-                                            fill="currentColor"
-                                            d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
-                                        ></path>
-                                    </svg>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                            <table className="table table-bordered">
+                                <thead className="_3Hx0N">
+                                    <tr className="_1nahx">
+                                        <th className="j_hIc _unitxt"></th>
+                                        <th className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            For foundational data integration needs
+                                        </th>
+                                        <th className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            For advanced analytics needs and production workloads
+                                        </th>
+                                        <th className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            For enhanced data security, speed, access, and support
+                                        </th>
+                                        <th className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            For maximum security over data infrastructure, pipelines, and
+                                            access
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody className="_3Hx0N">
+                                    <tr className="_1nahx">
+                                        <td colspan="5" className="j_hIc _unitxt _1qJrR">
+                                            Connectors and databases
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Sync frequency</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">1-hour max</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">15-min max</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">5-min max</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">5-min max</td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">180+ fully-managed connectors</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Analytic-ready schemas</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">14-days of free use with new connectors</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Fivetran transformations and packages</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Fully-managed database connectors</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx">
+                                        <td colspan="5" className="j_hIc _unitxt _1qJrR">
+                                            Security
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">SOC 2 Type II and ISO 27001 certifications</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">
+                                            Select data processing location (US, EU, etc.)
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">SSH tunnels for encryption</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Reverse SSH tunnels (annual contract only)</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">User permissioning for custom controls</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">
+                                            VPN tunnels for advanced security (annual contract only)
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Select cloud provider (GCP or AWS)</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Operate Fivetran in chosen AWS region</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">
+                                            AWS PrivateLink for advanced security requirements
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">PCI DSS Level 1 Certification</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Customer-managed keys for encryption</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx">
+                                        <td colspan="5" className="j_hIc _unitxt _1qJrR">
+                                            Support
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">24/7 global support</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">SLA for system uptime</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">SLA for data delivery</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">SLA for 1-hour support response</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx">
+                                        <td colspan="5" className="j_hIc _unitxt _1qJrR">
+                                            Extensibility
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Access to Fivetran’s REST API</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Streaming logging to external tools</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                    <tr className="_1nahx U625B">
+                                        <td className="j_hIc _unitxt">Support for multiple subsidiaries</td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9"></td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                        <td className="j_hIc _unitxt Ueqh6 _31jc9">
+                                            <svg
+                                                aria-hidden="true"
+                                                focusable="false"
+                                                data-prefix="fal"
+                                                data-icon="check"
+                                                className="svg-inline--fa fa-check fa-w-14 fa-lg "
+                                                role="img"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 448 512"
+                                                name="checked"
+                                            >
+                                                <path
+                                                    fill="currentColor"
+                                                    d="M413.505 91.951L133.49 371.966l-98.995-98.995c-4.686-4.686-12.284-4.686-16.971 0L6.211 284.284c-4.686 4.686-4.686 12.284 0 16.971l118.794 118.794c4.686 4.686 12.284 4.686 16.971 0l299.813-299.813c4.686-4.686 4.686-12.284 0-16.971l-11.314-11.314c-4.686-4.686-12.284-4.686-16.97 0z"
+                                                ></path>
+                                            </svg>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="container py-2">

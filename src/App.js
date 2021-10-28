@@ -31,6 +31,8 @@ import './css/signup.css';
 import './css/emailverify.css';
 import './css/login.css';
 import './css/welcome.css';
+import './css/setconnector.css';
+import './css/continuesetup.css';
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -80,6 +82,7 @@ import Login from './components/Login';
 import EmailVerify from './components/EmailVerify';
 import Welcome from './components/Welcome';
 import SetConnector from './components/SetConnector';
+import ContinueSetup from './components/ContinueSetup';
 
 function App() {
   return (
@@ -207,6 +210,9 @@ function App() {
           </Route>
           <Route exact path="/setconnector">
             <SetConnector />
+          </Route>
+          <Route exact path="/continuesetup">
+            <ContinueSetup />
           </Route>
         </Switch>
         <Footer />

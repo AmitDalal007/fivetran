@@ -9,22 +9,24 @@ const Legal = () => {
                 </div>
 
                 <div className="container pt-4">
-                    <div className="row featurette">
-                        <div className="col-md-4 order-md-1">
-                            <div id="list-example" className="">
-                                <a className="_faqa _unip" href="#list-item-1">Master Subscription Agreement</a>
-                                <a className="_faqa _unip" href="#list-item-2">Service Level Agreement</a>
-                                <a className="_faqa _unip" href="#list-item-3">Privacy Policy</a>
-                                <a className="_faqa _unip" href="#list-item-4">Data Protection Addendum</a>
-                                <a className="_faqa _unip" href="#list-item-5">Professional Services Addendum</a>
-                                <a className="_faqa _unip" href="#list-item-6">Cookie Policy</a>
-                                <a className="_faqa _unip" href="#list-item-7">Fivetran Service Consumption Table <br /><span>[through February 2021]</span></a>
-                                <a className="_faqa _unip" href="#list-item-8">Fivetran Candidate Privacy Statement</a>
+                    <div class="row g-5">
+                        <div class="col-md-4">
+                            <div class="position-sticky" style={{ top: "8rem" }}>
+                                <div id="list-example" className="">
+                                    <a className="_faqa _unip" href="#list-item-1">Master Subscription Agreement</a>
+                                    <a className="_faqa _unip" href="#list-item-2">Service Level Agreement</a>
+                                    <a className="_faqa _unip" href="#list-item-3">Privacy Policy</a>
+                                    <a className="_faqa _unip" href="#list-item-4">Data Protection Addendum</a>
+                                    <a className="_faqa _unip" href="#list-item-5">Professional Services Addendum</a>
+                                    <a className="_faqa _unip" href="#list-item-6">Cookie Policy</a>
+                                    <a className="_faqa _unip" href="#list-item-7">Fivetran Service Consumption Table <br /><span>[through February 2021]</span></a>
+                                    <a className="_faqa _unip" href="#list-item-8">Fivetran Candidate Privacy Statement</a>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-8 order-md-2">
+                        <div class="col-md-8">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example _lglcbrdr" tabindex="0">
-                                <h2 id="list-item-1" className="_unitxt"><a href="/" className="_unilb">Master Subscription Agreement</a></h2>
+                                <h2 id="list-item-1" className="_unitxt margin"><a href="/" className="_unilb">Master Subscription Agreement</a></h2>
                                 <small className="_unitxt">This Master Subscription Agreement is effective as of April 8, 2020</small>
 
                                 <p className="_unip pt-4">This Fivetran Master Subscription Agreement (the “Agreement”) is made between Fivetran, Inc., a Delaware corporation (“Fivetran”) and the party (“Customer”) that subscribes for the Services, as defined below. Between Fivetran and each Customer the Agreement consists of these terms, each signed order form or online enrollment (including any notes, pricing or other terms listed therein) (the “Order Form”), including any exhibits, and any updates or amendments to each of the foregoing. This Agreement is effective as of the date of Customer’s initial Order Form (the “Effective Date”). By executing the initial Order Form or accessing the Services, Customer agrees to all the terms set forth below. Customer’s usage of the Services is governed by Fivetran’s Service Consumption Table at <a href="/" className="_unilb"> https://fivetran.com/legal/credit-consumption</a>.</p>

@@ -41,8 +41,7 @@ const Navbar = () => {
             {/* Header End */}
 
             {/* Navbar Start */}
-            {/* sticky-top */}
-            <nav className="navbar navbar-expand-lg container-fluid navbar-light bg-light border-bottom">
+            <nav className="navbar navbar-expand-lg sticky-top container-fluid navbar-light bg-light border-bottom">
                 <div className="container">
                     <Link className="navbar-brand" aria-current="page" to="/">
                         <img src={fivetran} alt="" className="nav-logo" />

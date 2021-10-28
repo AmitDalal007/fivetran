@@ -8,17 +8,19 @@ const FAQ = () => {
                     <h2 className="_unih2">Frequently Asked Questions</h2>
                 </div>
                 <div className="container pt-5 c1">
-                    <div className="row featurette">
-                        <div className="col-md-5 order-md-1 c2">
-                            <div id="list-example" className="">
-                                <a className="_faqa _unip" href="#list-item-1">01. Getting Started</a>
-                                <a className="_faqa _unip" href="#list-item-2">02. Data Extraction and Loading</a>
-                                <a className="_faqa _unip" href="#list-item-3">03. Transformations and Automated <br /> <span className="px-4"> &nbsp; Schema Changes</span></a>
-                                <a className="_faqa _unip" href="#list-item-4">04. Security and Data Audits</a>
-                                <a className="_faqa _unip" href="#list-item-5">05. Billing and Support</a>
+                    <div class="row g-5">
+                        <div class="col-md-5">
+                            <div class="position-sticky" style={{ top: "8rem" }}>
+                                <div id="list-example" className="">
+                                    <a className="_faqa _unip" href="#list-item-1">01. Getting Started</a>
+                                    <a className="_faqa _unip" href="#list-item-2">02. Data Extraction and Loading</a>
+                                    <a className="_faqa _unip" href="#list-item-3">03. Transformations and Automated <br /> <span className="px-4"> &nbsp; Schema Changes</span></a>
+                                    <a className="_faqa _unip" href="#list-item-4">04. Security and Data Audits</a>
+                                    <a className="_faqa _unip" href="#list-item-5">05. Billing and Support</a>
+                                </div>
                             </div>
                         </div>
-                        <div className="col-md-7 order-md-2">
+                        <div class="col-md-7">
                             <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example" tabindex="0">
                                 <h4 id="list-item-1" className="_unitxt">01. Getting Started</h4>
                                 <div className="px-3">
@@ -383,6 +385,8 @@ const FAQ = () => {
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>

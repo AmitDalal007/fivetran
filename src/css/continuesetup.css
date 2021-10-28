@@ -1,0 +1,78 @@
+._csimg {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+
+._cshed {
+  font-size: 1.5rem;
+  font-weight: 450;
+  color: black;
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.mar {
+  justify-content: center;
+  margin-left: 100px;
+}
+
+._cshedtxt {
+  font-size: 0.96rem;
+}
+
+._cscont1p2 {
+  height: 300px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
+
+._1A10-:after {
+  content: "*";
+  padding-left: 0.325rem;
+  color: #f44336;
+}
+
+._1A10- {
+  width: 180px;
+  text-align: right;
+}
+
+._csrfwid {
+  width: 100% !important;
+}
+
+._csstbtn {
+  position: fixed !important;
+  bottom: 36px;
+  left: 281px;
+}
+
+._cscm5 {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+._csrcont {
+  background-color: #ddd;
+  /* width: 100% !important; */
+  width: 574px;
+  height: 522px;
+}
+
+._csc2h {
+  padding: 9px;
+  border-bottom: 1px solid rgb(165, 165, 165);
+  display: block !important;
+  padding-left: 20px;
+}
+
+._csc2of {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 450px !important;
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
