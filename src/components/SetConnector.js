@@ -1,5 +1,6 @@
 import React from 'react'
 import WelcomeHeader from './WelcomeHeader'
+import salesforce from '../images/SetConnector/salesforce.svg'
 
 const SetConnector = () => {
     return (
@@ -89,7 +90,7 @@ const SetConnector = () => {
                                                 <input class="form-check-input flex-shrink-0 visually-hidden" type="radio" name="listGroupRadios" id="listGroupRadios2" value="" />
                                                 <div className="_368Qv _3HD2A _1OAcY GQ1tB z9NhF _3SuSX" role="button" tabindex="0">
                                                     <div class="-Iqqq VLHNV">
-                                                        {/* <img src="/integrations/salesforce/resources/salesforce.svg" class="_2LxHR" alt="" /> */}
+                                                        <img src={salesforce} class="_2LxHR" alt="" />
                                                         <span data-html="true" data-delay-show="500">Salesforce</span>
                                                     </div>
 
@@ -107,7 +108,7 @@ const SetConnector = () => {
                                                 <input class="form-check-input flex-shrink-0 visually-hidden" type="radio" name="listGroupRadios" id="listGroupRadios2" value="" />
                                                 <div className="_368Qv _3HD2A _1OAcY GQ1tB z9NhF _3SuSX" role="button" tabindex="0">
                                                     <div class="-Iqqq VLHNV">
-                                                        {/* <img src="/integrations/salesforce/resources/salesforce.svg" class="_2LxHR" alt="" /> */}
+                                                        <img src={salesforce} class="_2LxHR" alt="" />
                                                         <span data-html="true" data-delay-show="500">Salesforce</span>
                                                     </div>
 
@@ -125,7 +126,7 @@ const SetConnector = () => {
                                                 <input class="form-check-input flex-shrink-0 visually-hidden" type="radio" name="listGroupRadios" id="listGroupRadios2" value="" />
                                                 <div className="_368Qv _3HD2A _1OAcY GQ1tB z9NhF _3SuSX" role="button" tabindex="0">
                                                     <div class="-Iqqq VLHNV">
-                                                        {/* <img src="/integrations/salesforce/resources/salesforce.svg" class="_2LxHR" alt="" /> */}
+                                                        <img src={salesforce} class="_2LxHR" alt="" />
                                                         <span data-html="true" data-delay-show="500">Salesforce</span>
                                                     </div>
 
