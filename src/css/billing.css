@@ -1,0 +1,42 @@
+._bilcont {
+  background-color: #f7f7f7;
+  padding: 0;
+  /* height: 1000px; */
+  width: 100% !important;
+  overflow: none !important;
+}
+
+._biliclr {
+  color: rgb(139, 139, 139);
+}
+
+._bilwtxt {
+  font-weight: bold !important;
+}
+
+._bilecont {
+  height: 80px !important;
+  align-items: center !important;
+}
+
+._bilbg {
+  font-size: small !important;
+  font-weight: bold !important;
+  background-color: #ebf5ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+._bilcrd {
+  width: 215px !important;
+  margin-right: 15px !important;
+  height: 870px;
+}
+
+._bilfbtn {
+  padding: 6px;
+  border: none;
+}
+._bilfbtn:hover {
+  box-shadow: 4px 4px 4px 4px #ddd;
+}

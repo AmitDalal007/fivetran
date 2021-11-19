@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const FAQ = () => {
     return (
         <>
+            <Navbar />
+
             <div className="container-fluid py-5">
                 <div className="container">
                     <h2 className="_unih2">Frequently Asked Questions</h2>
@@ -408,6 +412,8 @@ const FAQ = () => {
                 </div>
             </div>
             {/* 2nd Portion End */}
+
+            <Footer />
         </>
     )
 }

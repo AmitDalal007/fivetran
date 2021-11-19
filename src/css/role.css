@@ -1,0 +1,67 @@
+._rolewbg {
+  background-color: white !important;
+}
+
+._roltxtw {
+  font-weight: 600 !important;
+}
+
+._roltxts {
+  font-size: 0.9rem !important;
+  padding-top: 8px;
+}
+
+._rolmarg1 {
+  width: 200px !important;
+  text-align: end;
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+  padding-right: 15px !important;
+}
+
+._rolmarg2 {
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  margin-left: 12px !important;
+}
+
+._roledis {
+  background-color: #93979c !important;
+  border: #93979c;
+}
+
+._roldisuc {
+  background-color: white !important;
+  border: 1px solid #93979c !important;
+}
+
+._roledis2 {
+  background-color: #93979c !important;
+  border: #93979c !important;
+  color: white !important;
+  width: 130px !important;
+  font-size: 0.8rem !important;
+}
+
+._roledis3 {
+  color: #93979c !important;
+  border-color: #93979c !important;
+  width: 130px !important;
+  font-size: 0.8rem !important;
+}
+
+._rolsmtxt {
+  color: #93979c !important;
+  padding-top: 6px !important;
+  margin-left: 0px !important;
+}
+
+._brdrn {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+._rolhvrbtn:hover {
+  background-color: #f7f7f7 !important;
+}

@@ -267,8 +267,8 @@ const SubNav = () => {
                             </li>
                             <li role="presentation" className="navbar-item uf-menu-parent-list-item section has-dropdown is-hoverable dropdown">
                                 <button type="button" className="navbar-dropdown-toggle is-focusable dropbtn" aria-haspopup="true" aria-expanded="false" aria-controls="uf-dropdown-7">
-                                <span className="uf-dropdown-inset-label inline uf-menu-item undrlin">
-                                    <span className="sr-only">Toggle submenu for: </span> Modern Data Stack Conference
+                                    <span className="uf-dropdown-inset-label inline uf-menu-item undrlin">
+                                        <span className="sr-only">Toggle submenu for: </span> Modern Data Stack Conference
                                     </span>
                                     <i className="bi bi-chevron-down _snarr"></i>
                                 </button>

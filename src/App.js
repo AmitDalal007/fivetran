@@ -33,10 +33,14 @@ import './css/login.css';
 import './css/welcome.css';
 import './css/setconnector.css';
 import './css/continuesetup.css';
+import './css/manageaccount.css';
+import './css/users.css';
+import './css/role.css';
+import './css/settings.css';
+import './css/billing.css';
+import './css/usage.css';
 
-import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Switch,
@@ -83,13 +87,19 @@ import EmailVerify from './components/EmailVerify';
 import Welcome from './components/Welcome';
 import SetConnector from './components/SetConnector';
 import ContinueSetup from './components/ContinueSetup';
+import Error404 from './components/Error404.js';
+import ManageAccount from './components/ManageAccount';
+import Users from './components/Users';
+import Roles from './components/Roles';
+import Settings from './components/Settings';
+import Billing from './components/Billing';
+import Usage from './components/Usage';
 
 function App() {
   return (
     <>
       <Router>
         <ScrollToTop />
-        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -214,8 +224,28 @@ function App() {
           <Route exact path="/continuesetup">
             <ContinueSetup />
           </Route>
+          <Route exact path="/manageaccount">
+            <ManageAccount />
+          </Route>
+          <Route exact path="/users">
+            <Users />
+          </Route>
+          <Route exact path="/roles">
+            <Roles />
+          </Route>
+          <Route exact path="/settings">
+            <Settings />
+          </Route>
+          <Route exact path="/billing">
+            <Billing />
+          </Route>
+          <Route exact path="/usage">
+            <Usage />
+          </Route>
+          <Route>
+            <Error404 />
+          </Route>
         </Switch>
-        <Footer />
       </Router>
     </>
   );

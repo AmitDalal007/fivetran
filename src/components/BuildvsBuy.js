@@ -12,10 +12,14 @@ import bvbc9i from '../images/bvbc9i.jpg'
 import bvbc10i from '../images/bvbc10i.jpg'
 import bvbc11i from '../images/bvbc11i.jpg'
 import SubNav from './SubNav'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const BuildvsBuy = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -23,7 +27,7 @@ const BuildvsBuy = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -241,6 +245,8 @@ const BuildvsBuy = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

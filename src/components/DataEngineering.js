@@ -13,10 +13,14 @@ import dengc12i from '../images/dengc12i.jpg'
 import dengc13i from '../images/dengc13i.jpg'
 import dengc14i from '../images/dengc14i.jpg'
 import SubNav from './SubNav'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const DataEngineering = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -24,7 +28,7 @@ const DataEngineering = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -243,6 +247,8 @@ const DataEngineering = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

@@ -2,10 +2,14 @@ import React from 'react'
 import tpr1img from '../images/tpr1img.webp'
 import tpr3img from '../images/tpr3img.svg'
 import tpr4img from '../images/tpr4img.svg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const Transform = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion */}
             <div className="container-fluid my-5">
                 <div className="container _unima">
@@ -194,6 +198,8 @@ const Transform = () => {
                 </div>
             </div>
             {/* 5th Portion End */}
+
+            <Footer />
         </>
     )
 }

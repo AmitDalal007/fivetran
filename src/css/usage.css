@@ -1,0 +1,79 @@
+._usswid {
+  width: 180px !important;
+  font-weight: bolder !important;
+  border: none !important;
+}
+
+._uscont2 {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 950px;
+  margin-left: 120px !important;
+}
+
+._usc2stxt {
+  font-size: small !important;
+  font-weight: bold;
+  color: rgb(139, 139, 139) !important;
+}
+
+._usc2btxt {
+  font-weight: 900 !important;
+}
+
+._usc2link {
+  font-size: 0.85rem !important;
+}
+
+._usc2link:hover {
+  text-decoration: none !important;
+}
+
+._usc3clr1 {
+  background-color: #9fcfff !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+._usc3ib {
+  display: inline-block !important;
+}
+
+._usc3clr2 {
+  background-color: #ff9fdb !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+._usc3swid {
+  width: 200px !important;
+}
+
+._ussrhwid {
+  width: 385px !important;
+}
+
+._usc3tc1 {
+  width: 300px !important;
+}
+
+._usc3tc2 {
+  width: 200px !important;
+}
+
+._usc3tc3 {
+  width: 120px !important;
+}
+
+._usc3tc4 {
+  width: 140px !important;
+}
+
+._usc3ttxt {
+  font-size: 0.75rem !important;
+}
+
+._ussovrf {
+  height: 460px;
+  overflow-y: scroll;
+}

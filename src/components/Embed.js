@@ -20,10 +20,14 @@ import epr10i6 from '../images/epr10i6.svg'
 import epr11i1 from '../images/epr11i1.webp'
 import epr11i2 from '../images/epr11i2.webp'
 import epr11i3 from '../images/epr11i3.webp'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Embed = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -319,6 +323,8 @@ const Embed = () => {
                 </div>
             </div>
             {/* 12th Portion End */}
+
+            <Footer />
         </>
     )
 }

@@ -9,10 +9,14 @@ import card6 from '../images/Sales/card6.jpg'
 import card7 from '../images/Sales/card7.jpg'
 import card11 from '../images/Sales/card11.jpg'
 import SubNav from './SubNav'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Sales = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -20,7 +24,7 @@ const Sales = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -242,6 +246,8 @@ const Sales = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

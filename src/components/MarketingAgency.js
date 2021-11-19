@@ -11,10 +11,14 @@ import card8 from '../images/MarketingAgency/card8.jpg'
 import card9 from '../images/MarketingAgency/card9.jpg'
 import card10 from '../images/MarketingAgency/card10.jpg'
 import SubNav from './SubNav'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const MarketingAgency = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -22,7 +26,7 @@ const MarketingAgency = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -195,6 +199,8 @@ const MarketingAgency = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

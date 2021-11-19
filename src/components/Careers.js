@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const Careers = () => {
     return (
         <>
+            <Navbar />
+
             <div className="container-fluid py-5">
                 <div className="container _unictc">
                     <h2 className="_unih2">Experience ownership, impact, and recognition at Fivetran</h2>
@@ -87,7 +91,7 @@ const Careers = () => {
                         <p><a href="/" className="_unilb">Senior Customer Support Engineer (Bangalore)</a>
                             <a href="/" className="_unilb _cratag">Bengaluru, Karnataka, India</a></p>
                     </div>
-                
+
                     <div className="mt-5">
                         <p className="_unip _crhp">Design</p>
                         <p> <a href="/" className="_unilb">Design Tech, Brand</a>
@@ -116,7 +120,7 @@ const Careers = () => {
 
                         <p><a href="/" className="_unilb">Manager, Site Reliability Engineering (SRE)</a>
                             <a href="/" className="_unilb _cratag">Dublin, Ireland</a></p>
-                            
+
                         <p><a href="/" className="_unilb">Principal Software Engineer</a>
                             <a href="/" className="_unilb _cratag">Kaluga, Russia</a></p>
 
@@ -303,6 +307,8 @@ const Careers = () => {
                 </div>
             </div>
             {/* 2nd Portion End */}
+
+            <Footer />
         </>
     )
 }

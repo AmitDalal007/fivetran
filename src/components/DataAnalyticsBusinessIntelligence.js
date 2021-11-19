@@ -12,10 +12,14 @@ import card10 from '../images/DataAnalyticsBusinessIntelligence/card10.jpg'
 import card11 from '../images/DataAnalyticsBusinessIntelligence/card11.jpg'
 import card12 from '../images/DataAnalyticsBusinessIntelligence/card12.jpg'
 import SubNav from './SubNav'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const DataAnalyticsBusinessIntelligence = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -23,7 +27,7 @@ const DataAnalyticsBusinessIntelligence = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -228,6 +232,8 @@ const DataAnalyticsBusinessIntelligence = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

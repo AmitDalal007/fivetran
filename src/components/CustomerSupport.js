@@ -3,10 +3,14 @@ import csi from '../images/csi.png'
 import csi1 from '../images/csi1.jpg'
 import csi2 from '../images/csi2.jpg'
 import csi3 from '../images/csi3.jpg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const CustomerSupport = () => {
     return (
         <>
+            <Navbar />
+
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont px-5">
                     <img className="_csi" src={csi} alt="" />
@@ -81,6 +85,8 @@ const CustomerSupport = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

@@ -3,10 +3,14 @@ import pr1card1 from '../images/CaseStudies/pr1card1.webp'
 import pr4card1 from '../images/CaseStudies/pr4card1.webp'
 import pr4card2 from '../images/CaseStudies/pr4card2.webp'
 import pr4card3 from '../images/CaseStudies/pr4card3.webp'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const CaseStudies = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -141,57 +145,57 @@ const CaseStudies = () => {
                             <div className="carousel-item active">
                                 <div className="row row-cols-1 row-cols-md-3 g-4">
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
+                                        </div>
                                     </div>
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
+                                        </div>
                                     </div>
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="carousel-item">
-                            <div className="row row-cols-1 row-cols-md-3 g-4">
-                                    <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
-                                            </div>
-                                    </div>
-                                    <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
-                                            </div>
-                                    </div>
-                                    <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                            <div className="row row-cols-1 row-cols-md-3 g-4">
+                                <div className="row row-cols-1 row-cols-md-3 g-4">
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
+                                        </div>
                                     </div>
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
+                                        </div>
                                     </div>
                                     <div className="col">
-                                            <div class ="card-body">
-                                            <p class ="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
-                                            </div>
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="carousel-item">
+                                <div className="row row-cols-1 row-cols-md-3 g-4">
+                                    <div className="col">
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“We really like what Fivetran enables us to do. It is incredibly easy, fast and reliable. This has been a paradigm shift for us — it is the future of data pipelines and ETL and Fivetran is at the forefront of it.”</p>
+                                        </div>
+                                    </div>
+                                    <div className="col">
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“There were three main reasons we needed to bring on Fivetran: easier data integration, quicker access, and the ability to construct more complex data models.”</p>
+                                        </div>
+                                    </div>
+                                    <div className="col">
+                                        <div class="card-body">
+                                            <p class="card-text _uniwc">“I got what I wanted, something automated and trustworthy. Just click a few buttons, enter your credentials, and it's all up and running. Fivetran does its job.”</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -227,6 +231,8 @@ const CaseStudies = () => {
                 </div>
             </div>
             {/* 7th Portion End */}
+
+            <Footer />
         </>
     )
 }

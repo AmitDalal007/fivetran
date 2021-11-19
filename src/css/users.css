@@ -1,0 +1,35 @@
+._userswid {
+  width: 300px !important;
+}
+
+._ustable {
+  height: 180px !important;
+  overflow-y: scroll !important;
+  width: 1120px !important;
+}
+
+._ustbhwid {
+  width: 830px !important;
+}
+
+._ustbhwi {
+  width: 100px !important;
+  text-align: center;
+}
+
+._ustcol2 {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+._ustbhwi23 {
+  width: 200px !important;
+  border-bottom: 1px solid #ddd;
+}
+
+._ustbhwi2 {
+  width: 208px !important;
+  align-items: center !important;
+  text-align: center !important;
+  border-bottom: 1px solid #ddd;
+}

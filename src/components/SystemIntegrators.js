@@ -2,10 +2,14 @@ import React from "react";
 import sipr2i from "../images/SystemIntegrators/sipr2i.svg";
 import pr4card1 from "../images/SystemIntegrators/pr4card1.webp";
 import pr4card2 from "../images/SystemIntegrators/pr4card2.webp";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const SystemIntegrators = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid _unibbg _unictc py-5">
                 <h2 className="_unih2 _fppr1txt">Consulting Partner Program</h2>
@@ -402,32 +406,32 @@ const SystemIntegrators = () => {
                 <div className="container _unictc pt-5 px-5">
                     <a href="/" className="_unilb _sipr5a">
                         <div className="d-flex justify-content-between px-4 py-3 _unictc border">
-                        <h6 className="_unih6">Product and Data Strategy</h6>
-                        <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
+                            <h6 className="_unih6">Product and Data Strategy</h6>
+                            <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
                         </div>
                     </a>
                     <a href="/" className="_unilb _sipr5a">
                         <div className="d-flex justify-content-between px-4 py-3 _unictc border">
-                        <h6 className="_unih6">Setup and Support</h6>
-                        <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
+                            <h6 className="_unih6">Setup and Support</h6>
+                            <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
                         </div>
                     </a>
                     <a href="/" className="_unilb _sipr5a">
                         <div className="d-flex justify-content-between px-4 py-3 _unictc border">
-                        <h6 className="_unih6">FAQs & Events</h6>
-                        <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
+                            <h6 className="_unih6">FAQs & Events</h6>
+                            <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
                         </div>
                     </a>
                     <a href="/" className="_unilb _sipr5a">
                         <div className="d-flex justify-content-between px-4 py-3 _unictc border">
-                        <h6 className="_unih6">Customer Experience</h6>
-                        <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
+                            <h6 className="_unih6">Customer Experience</h6>
+                            <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
                         </div>
                     </a>
                     <a href="/" className="_unilb _sipr5a">
                         <div className="d-flex justify-content-between px-4 py-3 _unictc border">
-                        <h6 className="_unih6">Reseller Program</h6>
-                        <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
+                            <h6 className="_unih6">Reseller Program</h6>
+                            <strong><i className="bi bi-plus-lg _sipr5plus"></i></strong>
                         </div>
                     </a>
                 </div>
@@ -451,6 +455,8 @@ const SystemIntegrators = () => {
                 </div>
             </div>
             {/* 6th Portion End */}
+
+            <Footer />
         </>
     );
 };

@@ -15,10 +15,14 @@ import pr9img1 from '../images/Security/pr9img1.webp'
 import pr9img2 from '../images/Security/pr9img2.webp'
 import pr9img3 from '../images/Security/pr9img3.webp'
 import pr9img4 from '../images/Security/pr9img4.webp'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const Security = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -158,7 +162,7 @@ const Security = () => {
                 <div className="container _unictc">
                     <h2 className="_unih2 _culwtxt">The Most Reliable and Secure Cloud Data Integration Platform</h2>
                     <p className="_unip _culwtxt">Our highest level of data protection to support the needs of companies with extremely sensitive data</p>
-                    <img src={pr6img} className="py-3" style={{'width':'100%'}} alt="" />
+                    <img src={pr6img} className="py-3" style={{ 'width': '100%' }} alt="" />
                     <a className="btn btn-light mt-4 _culpr11btn" href="/" role="button">Download the Security Whitepaper</a>
                 </div>
             </div>
@@ -282,6 +286,8 @@ const Security = () => {
                 </div>
             </div>
             {/* 10th Portion End */}
+
+            <Footer />
         </>
     )
 }

@@ -11,10 +11,14 @@ import epr10i6 from '../images/epr10i6.svg'
 // To Here
 import apr6i1 from '../images/apr6i1.svg'
 import apr6i2 from '../images/apr6i2.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Applications = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -235,7 +239,7 @@ const Applications = () => {
                 <div className="container">
                     <div className="row featurette _unima">
                         <div className="col-md-6 order-md-1 _unima _unictc">
-                                <img className="_apr6i" src={apr6i1} alt="" />
+                            <img className="_apr6i" src={apr6i1} alt="" />
                             <div className="card-body">
                                 <h2 className="card-title _unih2">Request Connector</h2>
                                 <p className="card-text _unip">Don’t see a data source you need? We add new connectors based on customer requests.</p>
@@ -243,7 +247,7 @@ const Applications = () => {
                             </div>
                         </div>
                         <div className="col-md-6 order-md-2 _unima _unictc">
-                                <img className="_apr6i" src={apr6i2} alt="" />
+                            <img className="_apr6i" src={apr6i2} alt="" />
                             <div className="card-body">
                                 <h2 className="card-title _unih2">View Articles from our Blog</h2>
                                 <p className="card-text _unip">Stay up to date with new connectors and features as they become available.</p>
@@ -256,7 +260,7 @@ const Applications = () => {
             {/* 6th Portion End */}
 
             {/* 7th Portion Start */}
-            <div className="container-fluid border-top">
+            <div className="container-fluid border-top py-3">
                 <div className="container _unima">
                     <div className="row featurette">
                         <div className="col-md-7 _unima">
@@ -273,6 +277,8 @@ const Applications = () => {
                 </div>
             </div>
             {/* 7th Portion End */}
+
+            <Footer />
         </>
     )
 }

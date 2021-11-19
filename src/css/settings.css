@@ -1,0 +1,30 @@
+._ssovrf {
+  height: 390px;
+  overflow-y: scroll;
+}
+
+._ssmtxt {
+  font-size: 1.5rem !important;
+}
+
+._sslblwid {
+  width: 240px !important;
+  text-align: end;
+  font-size: 0.8rem;
+  font-weight: 600 !important;
+}
+
+._ssinwid {
+  width: 500px !important;
+}
+
+._ssobtn {
+  color: rgb(100, 100, 100) !important;
+  border-color: rgb(100, 100, 100) !important;
+}
+
+._ssobtn:hover {
+  color: #007bff !important;
+  border-color: #007bff !important;
+  background-color: white !important;
+}

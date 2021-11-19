@@ -11,10 +11,14 @@ import docusignl from '../images/docusignl.svg'
 import squarel from '../images/squarel.svg'
 import lionsgatel from '../images/lionsgatel.svg'
 import oktal from '../images/oktal.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Home = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st portion */}
             <div className="container-fluid my-3">
                 <div className="container">
@@ -257,6 +261,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

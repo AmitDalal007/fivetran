@@ -2,10 +2,14 @@ import React from 'react'
 import pr1img from '../images/RowCalculator/pr1img.svg'
 import pr3img1 from '../images/RowCalculator/pr3img1.svg'
 import pr3img2 from '../images/RowCalculator/pr3img2.svg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const RowCalculator = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="cotntainer-fluid _rcpr1bg _culpr11c">
                 <div className="_culpr11c2 pb-4">
@@ -1553,6 +1557,8 @@ const RowCalculator = () => {
                 </div>
             </div>
             {/* 3rd Portion End */}
+
+            <Footer />
         </>
     )
 }

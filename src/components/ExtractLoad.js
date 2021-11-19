@@ -21,10 +21,14 @@ import pr7img10 from '../images/ExtractLoad/pr7img10.webp'
 import pr7img11 from '../images/ExtractLoad/pr7img11.webp'
 import pr9img1 from '../images/ExtractLoad/pr9img1.svg'
 import pr9img2 from '../images/ExtractLoad/pr9img2.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const ExtractLoad = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -254,34 +258,34 @@ const ExtractLoad = () => {
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img3} className="card-img-top _unima _elpr7cimg3" alt="..."/>
-                                <div class ="card-body mt-2">
-                                <h5 class ="card-title _unih6">Direct pulls from cloud applications</h5>
-                                <p class ="card-text _unip">There are now 5,000 cloud applications, and counting. Our connectors help you keep pace.</p>
+                                <img src={pr7img3} className="card-img-top _unima _elpr7cimg3" alt="..." />
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title _unih6">Direct pulls from cloud applications</h5>
+                                    <p class="card-text _unip">There are now 5,000 cloud applications, and counting. Our connectors help you keep pace.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img4} className="card-img-top _unima _elpr7cimg3" alt="..."/>
-                                <div class ="card-body mt-2">
-                                <h5 class ="card-title _unih6">24-hour tech support</h5>
-                                <p class ="card-text _unip">When you continuously replicate billions of rows of data, things can go wrong. We’re here 24x7 to fix them.</p>
+                                <img src={pr7img4} className="card-img-top _unima _elpr7cimg3" alt="..." />
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title _unih6">24-hour tech support</h5>
+                                    <p class="card-text _unip">When you continuously replicate billions of rows of data, things can go wrong. We’re here 24x7 to fix them.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img5} className="card-img-top _unima _elpr7cimg3" alt="..."/>
-                                <div class ="card-body mt-2">
-                                <h5 class ="card-title _unih6">Real-time monitoring</h5>
-                                <p class ="card-text _unip">Get real-time feedback on sync progress, delays and updates from the Fivetran UI</p>
+                                <img src={pr7img5} className="card-img-top _unima _elpr7cimg3" alt="..." />
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title _unih6">Real-time monitoring</h5>
+                                    <p class="card-text _unip">Get real-time feedback on sync progress, delays and updates from the Fivetran UI</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <div className="container mt-5 px-4">
                     <div className="row d-flex g-3">
                         <div className="col">
@@ -304,39 +308,39 @@ const ExtractLoad = () => {
                         </div>
                     </div>
                 </div>
-            
+
                 <div className="container mt-5 px-4">
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img8} className="card-img-top _unima px-5" alt="..."/>
-                                <div class ="card-body mt-3">
-                                <h5 class ="card-title _unih6">Fully transparent, totally responsive</h5>
-                                <p class ="card-text _unip">We offer complete visibility into our system and proactive 24x7 support.</p>
+                                <img src={pr7img8} className="card-img-top _unima px-5" alt="..." />
+                                <div class="card-body mt-3">
+                                    <h5 class="card-title _unih6">Fully transparent, totally responsive</h5>
+                                    <p class="card-text _unip">We offer complete visibility into our system and proactive 24x7 support.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img9} className="card-img-top _unima px-5" alt="..."/>
-                                <div class ="card-body mt-2">
-                                <h5 class ="card-title _unih6">Granular system logs</h5>
-                                <p class ="card-text _unip">It’s hard to trust an opaque system. We send granular logs of every sync to your own logging system.</p>
+                                <img src={pr7img9} className="card-img-top _unima px-5" alt="..." />
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title _unih6">Granular system logs</h5>
+                                    <p class="card-text _unip">It’s hard to trust an opaque system. We send granular logs of every sync to your own logging system.</p>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card _elpr7crd3">
-                                <img src={pr7img10} className="card-img-top _unima _elpr7cimg3" alt="..."/>
-                                <div class ="card-body mt-2">
-                                <h5 class ="card-title _unih6">Automatic schema migrations</h5>
-                                <p class ="card-text _unip">Stop monitoring sources and fixing leaks. We adjust our schemas automatically, so source changes never disrupt your analytics.</p>
+                                <img src={pr7img10} className="card-img-top _unima _elpr7cimg3" alt="..." />
+                                <div class="card-body mt-2">
+                                    <h5 class="card-title _unih6">Automatic schema migrations</h5>
+                                    <p class="card-text _unip">Stop monitoring sources and fixing leaks. We adjust our schemas automatically, so source changes never disrupt your analytics.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            
+
                 <div className="container mt-5">
                     <div className="row d-flex g-4">
                         <div className="col">
@@ -478,6 +482,8 @@ const ExtractLoad = () => {
                 </div>
             </div>
             {/* 10th Portion End */}
+
+            <Footer />
         </>
     )
 }

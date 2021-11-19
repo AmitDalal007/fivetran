@@ -1,0 +1,26 @@
+._manavbg {
+  background-color: #eff0f2 !important;
+}
+
+._manavlink {
+  color: black;
+  font-weight: 700 !important;
+  border-bottom: 3px solid #007bff;
+}
+
+._mahed {
+  margin-bottom: 8px !important;
+  color: black !important;
+}
+
+._mastxt {
+  color: #96a2ae !important;
+}
+
+._madata {
+  display: block !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-weight: 700 !important;
+  color: black;
+}

@@ -1,65 +1,63 @@
-._welcont{
-    background-color: #f7f7f7;
-    padding: 0;
-    height: 1000px;
-    width: 100% !important;
-    overflow: none !important;
+._welcont {
+  background-color: #f7f7f7;
+  padding: 0;
+  width: 100% !important;
+  overflow: none !important;
 }
 
-
-._welhed{
-    background-color: #eff0f2;
-    height: 80px ;
+._welhed {
+  background-color: #eff0f2;
+  height: 80px;
 }
 
-._welcmtxt{
-    padding-bottom: 0px !important;
-    margin-bottom: 0px !important;
-    color: rgb(129, 127, 127);
+._welcmtxt {
+  padding-bottom: 0px !important;
+  margin-bottom: 0px !important;
+  color: rgb(129, 127, 127);
 }
 
-._welwtxt{
-    padding-top: 0px !important;
-    margin-top: 0px !important;
-    font-size: 1.50rem;
+._welwtxt {
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+  font-size: 1.5rem;
 }
 
-._wellogotxt{
-    padding-left: 8px;
-    padding-right: 40px;
+._wellogotxt {
+  padding-left: 8px;
+  padding-right: 40px;
 }
 
-._weldrpd{
-    width: 210px !important;
+._weldrpd {
+  width: 210px !important;
 }
 
-._wellogfw{
-    font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px !important;
+._wellogfw {
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px !important;
 }
 
-._wellogf1{
-    border-left: 5px solid #007bff;
+._wellogf1 {
+  border-left: 5px solid #007bff;
 }
 
-._welhdend{
-    display: flex !important;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 20px;
+._welhdend {
+  display: flex !important;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 20px;
 }
 
-._welmd{
-    margin: auto !important;
-    margin-left: 280px !important;
-    margin-top: -60px !important;
-    z-index: -1 !important;
+._welmd {
+  margin: auto !important;
+  margin-left: 280px !important;
+  margin-top: -70px !important;
+  z-index: -1 !important;
 }
 
-._welmdlwid{
-    width: 800px !important;
-    border-radius: 17px;
-    border: none !important;
+._welmdlwid {
+  width: 800px !important;
+  border-radius: 17px;
+  border: none !important;
 }

@@ -11,10 +11,14 @@ import epr10i6 from '../images/epr10i6.svg'
 // To Here
 import apr6i1 from '../images/apr6i1.svg'
 import apr6i2 from '../images/apr6i2.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Databases = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -253,6 +257,8 @@ const Databases = () => {
                 </div>
             </div>
             {/* 7th Portion End */}
+
+            <Footer />
         </>
     )
 }

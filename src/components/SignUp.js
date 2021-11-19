@@ -9,31 +9,31 @@ const SignUp = () => {
                 <div class="row justify-content-start">
                     <div class="col-5 _unisbbg">
                         <div className="_sicont1wid">
-                        <h4 className="_unih6 _siwtxt mb-3">Fully managed data pipelines</h4>
-                        <div className="mb-3">
-                            <iframe title="svideo" width="100%" src="https://www.youtube.com/embed/Md0XbSp3VSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-                        </div>
-                        <div className="d-flex pt-3">
-                            <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
-                            <span>
-                                <h5 className="_unitxt _siwtxt _signhed">Adapts with your data</h5>
-                                <p className="_unitxt _siwtxt">New fields and API versions are automatically updated</p>
-                            </span>
-                        </div>
-                        <div className="d-flex">
-                            <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
-                            <span>
-                                <h5 className="_unitxt _siwtxt _signhed">Easy to set up</h5>
-                                <p className="_unitxt _siwtxt">All data sources have simple authentication fields</p>
-                            </span>
-                        </div>
-                        <div className="d-flex">
-                            <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
-                            <span>
-                                <h5 className="_unitxt _siwtxt _signhed">Reliable</h5>
-                                <p className="_unitxt _siwtxt">Automated retries are picked up from the last saved sync</p>
-                            </span>
-                        </div>
+                            <h4 className="_unih6 _siwtxt mb-3">Fully managed data pipelines</h4>
+                            <div className="mb-3">
+                                <iframe title="svideo" width="100%" src="https://www.youtube.com/embed/Md0XbSp3VSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                            </div>
+                            <div className="d-flex pt-3">
+                                <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
+                                <span>
+                                    <h5 className="_unitxt _siwtxt _signhed">Adapts with your data</h5>
+                                    <p className="_unitxt _siwtxt">New fields and API versions are automatically updated</p>
+                                </span>
+                            </div>
+                            <div className="d-flex">
+                                <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
+                                <span>
+                                    <h5 className="_unitxt _siwtxt _signhed">Easy to set up</h5>
+                                    <p className="_unitxt _siwtxt">All data sources have simple authentication fields</p>
+                                </span>
+                            </div>
+                            <div className="d-flex">
+                                <i class="bi bi-check-circle-fill _siwtxt _sicon"></i>
+                                <span>
+                                    <h5 className="_unitxt _siwtxt _signhed">Reliable</h5>
+                                    <p className="_unitxt _siwtxt">Automated retries are picked up from the last saved sync</p>
+                                </span>
+                            </div>
                         </div>
                     </div>
                     <div class="col-7 _sicont2wid py-5 mb-5">
@@ -81,7 +81,7 @@ const SignUp = () => {
                             <div class="mb-1">
                                 <label for="company" class="form-label">Country</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option style={{display:"none"}}></option>
+                                    <option style={{ display: "none" }}></option>
                                     <option value="1">United States</option>
                                     <option value="2">Afganishtan</option>
                                     <option value="3">Albania</option>
@@ -100,7 +100,7 @@ const SignUp = () => {
                             <div class="mb-1">
                                 <label for="company" class="form-label">Employee size range</label>
                                 <select class="form-select" aria-label="Default select example">
-                                    <option style={{display:"none"}}></option>
+                                    <option style={{ display: "none" }}></option>
                                     <option value="1">1-10</option>
                                     <option value="2">11-199</option>
                                     <option value="3">200-1999</option>
@@ -110,7 +110,7 @@ const SignUp = () => {
 
                             <p className="_unip pt-3">Already have a Fivetran account? <Link to="/login" className="_unilb">Sign in</Link></p>
 
-                            <button type="button" style={{width:"100%"}} class="btn _unib"><h5>Sign up</h5></button>
+                            <button type="button" style={{ width: "100%" }} class="btn _unib"><h5>Sign up</h5></button>
 
                             <div className="_unictc pt-3">
                                 <p className="_unitxt">Signing up signifies that you have read and <br /> agreed to our <a href="/" className="_unilb">Terms of Service</a> and <a href="/" className="_unilb">Privacy Policy</a>.</p>

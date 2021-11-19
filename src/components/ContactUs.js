@@ -1,10 +1,12 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import { useRef } from 'react'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const ContactUs = () => {
     const myForm = useRef(null)
-    const sendEmail=(e)=>{
+    const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm(
@@ -12,15 +14,17 @@ const ContactUs = () => {
             "template_owrvt0j",
             e.target,
             "user_ubEtwKHsJVMGKKKQjUCH9"
-        ).then(res=>{
+        ).then(res => {
             console.log(res);
-        }).catch(err=> console.log(err));
+        }).catch(err => console.log(err));
 
         myForm.current.reset();
     }
 
     return (
         <>
+            <Navbar />
+
             <div className="container-fluid py-3">
                 <div className="container pb-3">
                     <h2 className="_unih2">Contact Us</h2>
@@ -59,6 +63,8 @@ const ContactUs = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

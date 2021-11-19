@@ -7,7 +7,7 @@ const Welcome = () => {
     return (
         <>
             <div class="container-fluid _signcont _welcont">
-                <WelcomeHeader/>
+                <WelcomeHeader />
 
                 <div class="_evabmod _welmd">
                     <div class="modal-dialog">

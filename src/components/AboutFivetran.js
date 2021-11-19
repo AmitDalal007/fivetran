@@ -12,10 +12,14 @@ import pr6card3 from '../images/AboutFivetran/pr6card3.webp'
 import pr6card4 from '../images/AboutFivetran/pr6card4.webp'
 import pr9card1 from '../images/AboutFivetran/pr9card1.webp'
 import pr9card2 from '../images/AboutFivetran/pr9card2.webp'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const AboutFivetran = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container _unictc px-5">
@@ -237,7 +241,7 @@ const AboutFivetran = () => {
                                     <p className="card-text _unip">Press & Media Inquiries</p>
                                 </div>
                                 <div className="card-footer p-3">
-                                <a className="_unilb" href="/" role="button">Email Us →</a>
+                                    <a className="_unilb" href="/" role="button">Email Us →</a>
                                 </div>
                             </div>
                         </div>
@@ -264,6 +268,7 @@ const AboutFivetran = () => {
                 </div>
             </div>
             {/* 10th Portion End */}
+            <Footer />
         </>
     )
 }

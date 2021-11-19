@@ -22,10 +22,14 @@ import epr10i6 from '../images/epr10i6.svg'
 import pr10i1 from '../images/Marketing/pr10i1.webp'
 import pr10i2 from '../images/Marketing/pr10i2.webp'
 import pr10i3 from '../images/Marketing/pr10i3.webp'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Marketing = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -314,6 +318,8 @@ const Marketing = () => {
                 </div>
             </div>
             {/* 11th Portion End */}
+
+            <Footer />
         </>
     )
 }

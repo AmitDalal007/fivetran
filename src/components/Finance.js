@@ -11,10 +11,14 @@ import pr6card3 from '../images/Finance/pr6card3.webp'
 import pr6card4 from '../images/Finance/pr6card4.webp'
 import pr6card5 from '../images/Finance/pr6card5.webp'
 import pr7card from '../images/Finance/pr7card.webp'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const Finance = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -318,7 +322,7 @@ const Finance = () => {
             </div>
             {/* 8th Portion End */}
 
-
+            <Footer />
         </>
     )
 }

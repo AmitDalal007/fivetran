@@ -1,13 +1,12 @@
 ._logmodl {
   width: 450px !important;
   border: transparent !important;
-  margin-top: 40px;
+  margin-top: 35px;
   box-shadow: 0px 0px 3px 3px rgb(179, 178, 178);
 }
 
 ._logcont {
   width: 100% !important;
-  height: 1000px !important;
   background-color: #ddd !important;
   z-index: 3 !important;
   position: absolute !important;

@@ -9,10 +9,14 @@ import pr3card6 from '../images/FindPartner/pr3card6.svg'
 import pr3card7 from '../images/FindPartner/pr3card7.svg'
 import pr4card1 from '../images/FindPartner/pr4card1.svg'
 import pr4card2 from '../images/FindPartner/pr4card2.svg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const FindPartner = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid _unibbg _unictc py-5">
                 <h2 className="_unih2 _fppr1txt">Fivetran Partner Ecosystem</h2>
@@ -151,6 +155,8 @@ const FindPartner = () => {
                 </div>
             </div>
             {/* 6th Portion End */}
+
+            <Footer />
         </>
     )
 }

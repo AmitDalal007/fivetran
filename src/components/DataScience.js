@@ -4,11 +4,15 @@ import dengheaderi from '../images/dengheaderi.png'
 import dscc1i from '../images/dscc1i.jpg'
 import dscc2i from '../images/dscc2i.jpg'
 import dscc3i from '../images/dscc3i.jpg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 import SubNav from './SubNav'
 
 const DataScience = () => {
     return (
         <>
+            <Navbar />
+
             <div className="_dengheader">
                 <img className="_dengheaderi" src={dengheaderi} alt="" />
                 <div className="container _dengheaderc">
@@ -16,7 +20,7 @@ const DataScience = () => {
                 </div>
             </div>
 
-            <SubNav/>
+            <SubNav />
 
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont mt-5">
@@ -140,6 +144,8 @@ const DataScience = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

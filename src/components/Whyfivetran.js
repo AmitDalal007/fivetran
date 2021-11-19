@@ -13,10 +13,14 @@ import wfpr7bigquery from '../images/wfpr7bigquery.svg'
 import wfpr7databricks from '../images/wfpr7databricks.webp'
 import wfpr7amazon from '../images/wfpr7amazon.svg'
 import wfpr7snow from '../images/wfpr7snow.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Whyfivetran = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion */}
             <div className="container-fluid my-5">
                 <div className="container _wfp1c1">
@@ -123,7 +127,7 @@ const Whyfivetran = () => {
 
             {/* 5th Portion Start */}
             <div className="container-fluid _wfpr5c1">
-            {/* _unictc d-flex row */}
+                {/* _unictc d-flex row */}
                 <div className="container _wfpr5c2">
                     <div className="col-md-3 _wfpr5col1"><h2 className="_unih2 _wfpr5h2">Learn how to get started with Fivetran</h2></div>
                     <div className="col-md-2 _wfpr5col2"><img src={wfbook} alt="" /></div>
@@ -363,6 +367,8 @@ const Whyfivetran = () => {
                 </div>
             </div>
             {/* 12th Portion End */}
+
+            <Footer />
         </>
     )
 }

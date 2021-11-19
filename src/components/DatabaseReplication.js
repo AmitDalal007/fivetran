@@ -21,10 +21,14 @@ import dbrpr10i1 from '../images/dbrpr10i1.webp'
 import dbrpr10i2 from '../images/dbrpr10i2.webp'
 import dbrpr10i3 from '../images/dbrpr10i3.webp'
 import dbrpr10i4 from '../images/dbrpr10i4.webp'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const DatabaseReplication = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container">
@@ -329,6 +333,8 @@ const DatabaseReplication = () => {
                 </div>
             </div>
             {/* 11th Portion End */}
+
+            <Footer />
         </>
     )
 }

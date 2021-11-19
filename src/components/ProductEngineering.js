@@ -7,10 +7,14 @@ import card6 from '../images/ProductEngineering/card6.jpg'
 import card7 from '../images/ProductEngineering/card7.jpg'
 import card8 from '../images/ProductEngineering/card8.jpg'
 import card9 from '../images/ProductEngineering/card9.jpg'
+import Footer from './Footer'
+import Navbar from './Navbar'
 
 const ProductEngineering = () => {
     return (
         <>
+            <Navbar />
+
             <div className="container-fluid _unibg py-5">
                 <div className="container _cscont px-5">
                     <img className="_csi" src={csi} alt="" />
@@ -169,6 +173,8 @@ const ProductEngineering = () => {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </>
     )
 }

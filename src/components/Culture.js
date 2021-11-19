@@ -2,10 +2,14 @@ import React from 'react'
 import pr3img from '../images/Culture/pr3img.webp'
 import pr9img from '../images/Culture/pr9img.webp'
 import pr11img from '../images/Culture/pr11img.svg'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Culture = () => {
     return (
         <>
+            <Navbar />
+
             {/* 1st Portion Start */}
             <div className="container-fluid py-5">
                 <div className="container _unictc px-5">
@@ -396,6 +400,8 @@ const Culture = () => {
                 </div>
             </div>
             {/* 12th Portion End */}
+
+            <Footer />
         </>
     )
 }
